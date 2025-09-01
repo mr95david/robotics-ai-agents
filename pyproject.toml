@@ -10,5 +10,6 @@ dependencies = [
     "pandas>=2.3.2",
     "pydantic-ai[examples]>=0.8.1",
     "pydantic-graph>=0.8.1",
+    "python-dotenv>=1.1.1",
 ]
 

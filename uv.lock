@@ -2837,6 +2837,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pydantic-ai", extra = ["examples"] },
     { name = "pydantic-graph" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -2846,6 +2847,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.2" },
     { name = "pydantic-ai", extras = ["examples"], specifier = ">=0.8.1" },
     { name = "pydantic-graph", specifier = ">=0.8.1" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
 [[package]]
