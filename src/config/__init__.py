@@ -5,8 +5,13 @@ Este modulo maneja las configuraciones para la creacion de agentes segun las nec
 asi mismo se espera que se incluyan las configuraiones adicionales, mcp, a2a y demas necesarias.
 """
 
-from .settings import set_env_file
+from .settings import OllamaSettings
+from .settings import ModelSettings
+from .settings import Settings
+
 
 __all__ = [
-    'set_env_file'
+    'OllamaSettings',
+    'ModelSettings',
+    'Settings'
 ]
