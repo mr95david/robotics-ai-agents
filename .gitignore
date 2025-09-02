@@ -10,5 +10,4 @@ wheels/
 /.venv
 /.env
 /.env.*
-
-# 
+!/.env.guide
