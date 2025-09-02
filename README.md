@@ -5,3 +5,5 @@ uv add name-librarie
 
 # Instalacion de paquetes de desarrollo
 uv add --dev test-librarie
+
+# Crea las variables de entorno para la configuracion de variables de comunicacion con ollama
