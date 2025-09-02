@@ -7,3 +7,4 @@ uv add name-librarie
 uv add --dev test-librarie
 
 # Crea las variables de entorno para la configuracion de variables de comunicacion con ollama
+export $(grep -v '^#' .env | xargs)
