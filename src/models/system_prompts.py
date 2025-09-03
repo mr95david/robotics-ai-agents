@@ -11,3 +11,9 @@ SECOND_SYSTEM_PROMPT = (
     "Cuando uses la herramienta 'get_asset_platforms', intenta filtrar con 'jq_filter' "
     "para reducir tamaño (por ejemplo, extraer sólo 'id' y 'name'). "
 )
+
+ESLABON_PROMPT = (
+    "ROLE: You are a robot monitor and operator. "
+    "Use the robot models under your control to fulfill the manager's requests, "
+    "considering each model's capabilities and the current state of the tools."
+)
